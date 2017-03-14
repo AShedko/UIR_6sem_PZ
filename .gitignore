@@ -1,7 +1,19 @@
-*.aux
-*.docx
-*.log
+syntax: glob
+*.picasa.ini
+*.tdo
 *.pdf
+*.aux
+*.tmp
+*.bbl
+*.blg
+*.dvi
+*.log
+*.out
+*.toc
+*.synctex
+*abbrev_list.aux
+*.tps
+*.sublime-workspace
+*.sublime-project
 *.gz
-*.png
-t-t
+*.doc*
