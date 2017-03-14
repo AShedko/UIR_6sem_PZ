@@ -1,0 +1,19 @@
+# Fdb version 3
+["latex"] 1487023057 "t-t.tex" "t-t.dvi" "t-t" 1487023057
+  "/home/ashedko/.cache/texlive/texmf-var/web2c/pdftex/latex.fmt" 1487022982 719081 3a22f871dd4a8da22a9ea3fc1d8c065b ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/report.cls" 1459635588 22880 e7be6f7dd8c05d5108bf3a7d8cabe59a ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo" 1459635588 8303 1d67e16498f00f63da792fab169302fc ""
+  "/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty" 1315783907 205722 8027ed7ab2230086d647802c25f3ee42 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1483474113 31949 3ae02a131d161fd383f5b89f8ad0930c ""
+  "chapters/t-t-macro.tex" 1486752917 3192 6baf0504865482b4cf43032013ed7c9c ""
+  "polyglossia.sty" 0 -1 0 ""
+  "q.sty" 0 -1 0 ""
+  "t-t.aux" 1487022799 7411 eb5821fa65b9c152ca4fc426b6489e82 ""
+  "t-t.tex" 1486809823 2265 45b9e3ef71b0a5290dc8d8f32bc90ef0 ""
+  (generated)
+  "t-t.aux"
+  "t-t.toc"
+  "t-t.log"
+  "t-t.out"
+  "t-t.dvi"

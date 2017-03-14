@@ -1,0 +1,95 @@
+\setlength\paperheight{297mm}
+\setlength\paperwidth{210mm}
+
+
+\usepackage{polyglossia}
+\setmainlanguage{russian}
+\setotherlanguages{english}
+
+\usepackage{xunicode} % some extra unicode support
+%\usepackage[utf8x]{inputenc}
+\usepackage{xltxtra} % \XeLaTeX macro
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+
+%\setromanfont{Charis SIL}
+%\setsansfont{Liberation Sans}
+%\setmonofont{PT Mono}
+%\setmainfont{Liberation Serif} % this allows to use sans-serif as default font
+
+\newfontfamily{\cyrillicfont}{Times New Roman}
+\setmainfont[Mapping=tex-text]{Times New Roman}
+\newfontfamily{\cyrillicfonttt}{Courier New}
+\setmonofont{Courier New}
+
+%нумерация справа и колонтитулы справа вверху
+\usepackage{fancyhdr}
+\usepackage[left=25mm,right=10mm,top=20mm,bottom=20mm,bindingoffset=0cm]{geometry}%
+
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{pdfpages}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{indentfirst}
+\usepackage[unicode=true]{hyperref}
+\usepackage{color}
+\usepackage{listingsutf8} % это лучше, чем verbatim
+\usepackage{pgf}
+
+\usepackage[singlelinecheck=false,labelsep=endash]{caption}
+\captionsetup[table]{justification=justified}
+\captionsetup[figure]{justification=centering}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[block]{\centering\normalfont\LARGE\bfseries}{\thechapter.}{1ex}{}{}
+\titlespacing{\chapter}{0pt}{0em}{2em}
+
+\usepackage[title, titletoc]{appendix}
+%\renewcommand{\appendixname}{Приложение}% Change "chapter name" for Appendix chapters
+%\renewcommand{\cftchapdotsep}{\cftdotsep}
+
+\usepackage{mathpartir}
+
+\makeatletter
+\let\ps@plain\ps@fancy              % Подчиняем первые страницы каждой главы общим правилам
+\makeatother
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\baselinestretch}{1.5}
+\newcommand{\headertext}[1]{\fancyhead[R]{\tiny{#1}}}
+
+%% Список литературы
+\makeatletter
+\bibliographystyle{utf8gost71s}     % Оформляем список литературы по ГОСТ 7.1
+                                    % (ГОСТ Р 7.0.11-2011, 5.6.7)
+\renewcommand{\@biblabel}[1]{#1.}   % Заменяем список литературы с квадратных
+                                    % скобок на точку
+\makeatother
+
+%\frenchspacing %% изменение расстояние до и после точек в ряде случаев
+
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{\arabic{enumii}}
+\renewcommand{\theenumiii}{\arabic{enumiii}}
+\renewcommand{\theenumiv}{\arabic{enumiv}}
+
+\renewcommand{\labelenumi}{\theenumi.}
+\renewcommand{\labelenumii}{\theenumi.\theenumii.}
+\renewcommand{\labelenumiii}{\theenumi.\theenumii.\theenumiii.}
+\renewcommand{\labelenumiv}{\theenumi.\theenumii.\theenumiii.\theenumiv.}
+
+
+%\newenvironment{annotation}{\textbf{Аннотация.} \textit}{}
+\theoremstyle{plain}
+\newtheorem*{annotation}{Аннотация}

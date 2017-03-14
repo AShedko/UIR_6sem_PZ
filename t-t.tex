@@ -1,0 +1,115 @@
+\documentclass[12pt,a4paper,oneside,final]{report}
+%\documentclass[12pt]{rusthesis}
+
+\input{chapters/t-t-macro.tex}
+
+
+\headertext{}
+
+\addto{\captionsrussian}{\renewcommand{\bibname}{Список литературы}}
+
+\begin{document}
+
+%\pagenumbering{gobble}
+\pagenumbering{arabic}
+
+\includepdf[pages={-}, offset=0mm -0mm]{title/title.pdf}
+
+%\clearpage
+%% Тут включается лист с подписями для ВКР
+%\includepdf[pages={-}, offset=0mm -0mm]{title/title-dep22.pdf}
+%\clearpage
+
+
+\includepdf[pages={-}, offset=0mm -0mm]{title/task.pdf}
+
+
+%\clearpage
+%\thispagestyle{empty}
+
+%\vfill
+
+%\begin{center}
+%[Место для распечатки отчета Антиплагиата]
+%\end{center}
+
+%\newpage
+%\thispagestyle{empty}
+
+%\vfill
+
+%\begin{center}
+%[Место для распечатки отчета Антиплагиата]
+%\end{center}
+
+\clearpage
+
+\input{chapters/t-t-abstract.tex}
+
+\clearpage
+
+\tableofcontents{}
+
+\clearpage
+
+\input{chapters/t-t-intro.tex}
+
+\clearpage
+
+\input{chapters/t-t-chapter1.tex}
+
+\clearpage
+
+\input{chapters/t-t-chapter2.tex}
+
+\clearpage
+
+\input{chapters/t-t-chapter3.tex}
+
+\clearpage
+
+\input{chapters/t-t-chapter4.tex}
+
+\clearpage
+
+\input{chapters/t-t-conclusion.tex}
+
+\clearpage
+
+\input{chapters/t-t-bibl.tex}
+
+\clearpage
+
+%\chapter*{Приложения}
+%\addcontentsline{toc}{chapter}{Приложения}
+%\appendixtocon
+%\renewcommand{\appendixname}{Приложение}
+\appendix
+\renewcommand{\appendixtocname}{Приложения}
+\addappheadtotoc
+\titleformat{\chapter}[block]{\centering\normalfont\LARGE\bfseries}{\chaptername{} \thechapter.}{1ex}{}{}
+\renewcommand{\chaptername}{Приложение}
+%\renewcommand*\printchaptername{\Large\bfseries\appendixname~}
+%\renewcommand{\thechapter}{Приложение \Alph{chapter}}
+%\renewcommand{\thechaptertoc}{Приложение \Alph{chapter}}
+
+%\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ #1}{}}
+
+%\begin{appendices}
+
+\input{chapters/t-t-appendix1.tex}
+
+\clearpage
+
+\input{chapters/t-t-appendix2.tex}
+
+\clearpage
+
+\input{chapters/t-t-appendix3.tex}
+
+%\end{appendices}
+
+\end{document}
+
+
+

@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{pajula_ISC_tut}
+\selectlanguageifdefined{english}
+\BibEmph{Pajula~Juha}. Inter-Subject Correlation Analysis for Functional
+  Magnetic Resonance Imaging: Properties and Validation. Tampere University of
+  Technology. Publication. ---
+\newblock Tampere University of Technology, 2016. --- 4. ---
+\newblock Awarding institution:Tampere University of Technology.
+
+\bibitem{Gost.7.0.53}
+\selectlanguageifdefined{russian}
+ГОСТ Р 7.0.53-2007 Система стандартов по
+  информации, библиотечному и
+  издательскому делу. Издания.
+  Международный стандартный книжный номер.
+  Использование и издательское оформление.
+  ---
+\newblock М.: Стандартинформ, 2007. ---
+\newblock 5~{с.}
+
+\end{thebibliography}
