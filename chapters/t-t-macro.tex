@@ -53,6 +53,11 @@
 \titlespacing{\chapter}{0pt}{0em}{2em}
 
 \usepackage[title, titletoc]{appendix}
+\addto\captionsrussian{% Replace "english" with the language you use
+	\renewcommand{\contentsname}%
+	{Содержание}%
+}
+
 %\renewcommand{\appendixname}{Приложение}% Change "chapter name" for Appendix chapters
 %\renewcommand{\cftchapdotsep}{\cftdotsep}
 

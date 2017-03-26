@@ -7,13 +7,50 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
-\bibitem{pajula_ISC_tut}
+\bibitem{kauppi2010clustering}
+\selectlanguageifdefined{english}
+Clustering inter-subject correlation matrices in functional magnetic resonance
+  imaging~/ Jukka-Pekka~Kauppi, Iiro~P~J{\"a}skel{\"a}inen, Mikko~Sams,
+  Jussi~Tohka~// Information Technology and Applications in Biomedicine (ITAB),
+  2010 10th IEEE International Conference on~/ IEEE. ---
+\newblock 2010. ---
+\newblock Pp.~1--6.
+
+\bibitem{hastie_09_elements-of.statistical-learning}
+\selectlanguageifdefined{english}
+\BibEmph{Hastie~Trevor, Tibshirani~Robert, Friedman~Jerome}. The elements of
+  statistical learning: data mining, inference and prediction. ---
+\newblock 2 edition. ---
+\newblock Springer, 2009. \BibUrl{
+  http://www-stat.stanford.edu/~tibs/ElemStatLearn/}.
+
+\bibitem{pajula_ISC_thes}
 \selectlanguageifdefined{english}
 \BibEmph{Pajula~Juha}. Inter-Subject Correlation Analysis for Functional
   Magnetic Resonance Imaging: Properties and Validation. Tampere University of
   Technology. Publication. ---
 \newblock Tampere University of Technology, 2016. --- 4. ---
 \newblock Awarding institution:Tampere University of Technology.
+
+\bibitem{Isc_fmrt}
+\selectlanguageifdefined{english}
+\BibEmph{Pajula~Juha, Kauppi~Jukka-Pekka, Tohka~Jussi}. Inter-Subject
+  Correlation in fMRI: Method Validation against Stimulus-Model Based
+  Analysis~// \BibEmph{PLOS ONE}. ---
+\newblock 2012. --- 08. ---
+\newblock Vol.~7, no.~8. ---
+\newblock Pp.~1--13. \BibUrl{
+  http://dx.doi.org/10.1371%2Fjournal.pone.0041196}.
+
+\bibitem{Pereira_fMRI_tut}
+\selectlanguageifdefined{english}
+\BibEmph{Pereira~Francisco, Mitchell~Tom, Botvinick~Matthew}. Machine learning
+  classifiers and fMRI: A tutorial overview~// \BibEmph{NeuroImage}. ---
+\newblock 2009. ---
+\newblock Vol.~45, no. 1, Supplement 1. ---
+\newblock Pp.~S199 -- S209. ---
+\newblock Mathematics in Brain Imaging. \BibUrl{
+  http://www.sciencedirect.com/science/article/pii/S1053811908012263}.
 
 \bibitem{Gost.7.0.53}
 \selectlanguageifdefined{russian}
@@ -25,5 +62,30 @@
   ---
 \newblock М.: Стандартинформ, 2007. ---
 \newblock 5~{с.}
+
+\bibitem{Constitution}
+\selectlanguageifdefined{russian}
+Конституция Российской Федерации: офиц.
+  текст. ---
+\newblock М.: Маркетинг, 2001. ---
+\newblock 39~{с.}
+
+\bibitem{Sokolov}
+\selectlanguageifdefined{russian}
+\BibEmph{Соколов~А.~Н., Сердобинцев~К.~С.}
+  Гражданское общество: проблемы
+  формирования и развития (философский и
+  юридический аспекты): монография~/ {Под
+  ред. }В.~М.~Бочарова. ---
+\newblock Астрахань: Калиниградский ЮИ МВД
+  России, 2009. ---
+\newblock 218~{с.}
+
+\bibitem{Sychev}
+\selectlanguageifdefined{russian}
+\BibEmph{Сычёв~М.~С.} История Астраханвского
+  казачьего войска: учебное пособие. ---
+\newblock Астрахань: Волга, 2009. ---
+\newblock 231~{с.}
 
 \end{thebibliography}
