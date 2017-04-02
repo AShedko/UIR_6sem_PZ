@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper,oneside,final]{report}
+\documentclass[12pt, a4paper,oneside,final]{report}
 %\documentclass[12pt]{rusthesis}
 
 \input{chapters/t-t-macro.tex}
@@ -22,8 +22,6 @@
 
 
 \includepdf[pages={-}, offset=0mm -0mm]{title/task.pdf}
-
-\nocite{*}
 
 %\clearpage
 %\thispagestyle{empty}
@@ -86,6 +84,9 @@
 %\appendixtocon
 %\renewcommand{\appendixname}{Приложение}
 \appendix
+% Русский в нумерации приложений.
+\renewcommand{\thechapter}{\Asbuk{chapter}} 
+
 \renewcommand{\appendixtocname}{Приложения}
 \addappheadtotoc
 \titleformat{\chapter}[block]{\centering\normalfont\LARGE\bfseries}{\chaptername{} \thechapter.}{1ex}{}{}
@@ -98,15 +99,17 @@
 
 %\begin{appendices}
 
-\input{chapters/t-t-appendix1.tex}
+\input{t-t-appendix_my.tex}
 
-\clearpage
-
-\input{chapters/t-t-appendix2.tex}
-
-\clearpage
-
-\input{chapters/t-t-appendix3.tex}
+%\input{chapters/t-t-appendix1.tex}
+%
+%\clearpage
+%
+%\input{chapters/t-t-appendix2.tex}
+%
+%\clearpage
+%
+%\input{chapters/t-t-appendix3.tex}
 
 %\end{appendices}
 

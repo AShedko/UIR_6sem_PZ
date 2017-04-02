@@ -1,7 +1,6 @@
 syntax: glob
 *.picasa.ini
 *.tdo
-*.pdf
 *.aux
 *.tmp
 *.bbl

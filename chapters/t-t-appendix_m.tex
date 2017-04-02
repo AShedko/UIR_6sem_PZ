@@ -1,0 +1,17 @@
+\chapter*{Исходные тексты программ}
+
+\begin{lstlisting}
+def ind(i,l):
+    return (i % l -1, (i % (l**2) // l)-1,
+            i % (l**3) // l**2 -1)	
+def geti(x,i):
+    return list(map(lambda el: el[i], x))		
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')	
+for (i,j) in zip(list(np.argsort([np.mean(geti(x,i)) 
+for i in range(len(r)**3)])),range(len(r)**3)):
+    ax.plot(range(183),geti(x,i),j, label =
+    "{}".format(ind(i,len(r))));
+\end{lstlisting}

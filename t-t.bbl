@@ -7,22 +7,41 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
-\bibitem{kauppi2010clustering}
+\bibitem{Hunter:2007}
 \selectlanguageifdefined{english}
-Clustering inter-subject correlation matrices in functional magnetic resonance
-  imaging~/ Jukka-Pekka~Kauppi, Iiro~P~J{\"a}skel{\"a}inen, Mikko~Sams,
-  Jussi~Tohka~// Information Technology and Applications in Biomedicine (ITAB),
-  2010 10th IEEE International Conference on~/ IEEE. ---
-\newblock 2010. ---
-\newblock Pp.~1--6.
+\BibEmph{Hunter~J.~D.} Matplotlib: A 2D graphics environment~//
+  \BibEmph{Computing In Science \& Engineering}. ---
+\newblock 2007. ---
+\newblock Vol.~9, no.~3. ---
+\newblock Pp.~90--95.
 
-\bibitem{hastie_09_elements-of.statistical-learning}
+\bibitem{Hasson1634}
 \selectlanguageifdefined{english}
-\BibEmph{Hastie~Trevor, Tibshirani~Robert, Friedman~Jerome}. The elements of
-  statistical learning: data mining, inference and prediction. ---
-\newblock 2 edition. ---
-\newblock Springer, 2009. \BibUrl{
-  http://www-stat.stanford.edu/~tibs/ElemStatLearn/}.
+Intersubject Synchronization of Cortical Activity During Natural Vision~/
+  Uri~Hasson, Yuval~Nir, Ifat~Levy et~al.~// \BibEmph{Science}. ---
+\newblock 2004. ---
+\newblock Vol. 303, no. 5664. ---
+\newblock Pp.~1634--1640. \BibUrl{
+  http://science.sciencemag.org/content/303/5664/1634}.
+
+\bibitem{10.3389/fninf.2014.00014}
+\selectlanguageifdefined{english}
+Machine learning for neuroimaging with scikit-learn~/ Alexandre~Abraham,
+  Fabian~Pedregosa, Michael~Eickenberg et~al.~// \BibEmph{Frontiers in
+  Neuroinformatics}. ---
+\newblock 2014. ---
+\newblock Vol.~8. ---
+\newblock P.~14. \BibUrl{
+  http://journal.frontiersin.org/article/10.3389/fninf.2014.00014}.
+
+\bibitem{wolf2004medical}
+\selectlanguageifdefined{english}
+The Medical Imaging Interaction Toolkit (MITK)--a toolkit facilitating the
+  creation of interactive software by extending VTK and ITK~/ Ivo~Wolf,
+  Marcus~Vetter, Ingmar~Wegner et~al.~// Proc. of SPIE Vol. ---
+\newblock Vol.~5367. ---
+\newblock 2004. ---
+\newblock P.~17.
 
 \bibitem{pajula_ISC_thes}
 \selectlanguageifdefined{english}
@@ -31,61 +50,5 @@ Clustering inter-subject correlation matrices in functional magnetic resonance
   Technology. Publication. ---
 \newblock Tampere University of Technology, 2016. --- 4. ---
 \newblock Awarding institution:Tampere University of Technology.
-
-\bibitem{Isc_fmrt}
-\selectlanguageifdefined{english}
-\BibEmph{Pajula~Juha, Kauppi~Jukka-Pekka, Tohka~Jussi}. Inter-Subject
-  Correlation in fMRI: Method Validation against Stimulus-Model Based
-  Analysis~// \BibEmph{PLOS ONE}. ---
-\newblock 2012. --- 08. ---
-\newblock Vol.~7, no.~8. ---
-\newblock Pp.~1--13. \BibUrl{
-  http://dx.doi.org/10.1371%2Fjournal.pone.0041196}.
-
-\bibitem{Pereira_fMRI_tut}
-\selectlanguageifdefined{english}
-\BibEmph{Pereira~Francisco, Mitchell~Tom, Botvinick~Matthew}. Machine learning
-  classifiers and fMRI: A tutorial overview~// \BibEmph{NeuroImage}. ---
-\newblock 2009. ---
-\newblock Vol.~45, no. 1, Supplement 1. ---
-\newblock Pp.~S199 -- S209. ---
-\newblock Mathematics in Brain Imaging. \BibUrl{
-  http://www.sciencedirect.com/science/article/pii/S1053811908012263}.
-
-\bibitem{Gost.7.0.53}
-\selectlanguageifdefined{russian}
-ГОСТ Р 7.0.53-2007 Система стандартов по
-  информации, библиотечному и
-  издательскому делу. Издания.
-  Международный стандартный книжный номер.
-  Использование и издательское оформление.
-  ---
-\newblock М.: Стандартинформ, 2007. ---
-\newblock 5~{с.}
-
-\bibitem{Constitution}
-\selectlanguageifdefined{russian}
-Конституция Российской Федерации: офиц.
-  текст. ---
-\newblock М.: Маркетинг, 2001. ---
-\newblock 39~{с.}
-
-\bibitem{Sokolov}
-\selectlanguageifdefined{russian}
-\BibEmph{Соколов~А.~Н., Сердобинцев~К.~С.}
-  Гражданское общество: проблемы
-  формирования и развития (философский и
-  юридический аспекты): монография~/ {Под
-  ред. }В.~М.~Бочарова. ---
-\newblock Астрахань: Калиниградский ЮИ МВД
-  России, 2009. ---
-\newblock 218~{с.}
-
-\bibitem{Sychev}
-\selectlanguageifdefined{russian}
-\BibEmph{Сычёв~М.~С.} История Астраханвского
-  казачьего войска: учебное пособие. ---
-\newblock Астрахань: Волга, 2009. ---
-\newblock 231~{с.}
 
 \end{thebibliography}
