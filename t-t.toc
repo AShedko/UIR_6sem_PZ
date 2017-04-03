@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {3.1}Проектирование программного пакета выполняющего классификацию когнитивных состояний по данным фМРТ на основе анализа межиндивидуальных корреляций}{15}{section.3.1}
 \contentsline {section}{\numberline {3.2}Программная реализация системы классификации}{15}{section.3.2}
 \contentsline {section}{\numberline {3.3}Состав и структура реализованного программного обеспечения}{15}{section.3.3}
-\contentsline {section}{\numberline {3.4}Основные сценарии работы пользователя}{16}{section.3.4}
+\contentsline {section}{\numberline {3.4}Основные сценарии работы пользователя}{15}{section.3.4}
 \contentsline {section}{\numberline {3.5}Сравнение реализованного программного обеспечения с существующими аналогами}{16}{section.3.5}
 \contentsline {section}{\numberline {3.6}Выводы}{16}{section.3.6}
 \contentsline {chapter}{\numberline {4}Экспериментальные исследования алгоритма классификации сигналов фМРТ}{17}{chapter.4}
