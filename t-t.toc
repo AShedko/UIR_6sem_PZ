@@ -29,8 +29,8 @@
 \contentsline {section}{\numberline {4.2}Составление плана экспериментальных исследований разработанного алгоритма}{17}{section.4.2}
 \contentsline {section}{\numberline {4.3}Исследование точности классификации при различных способах оценки межиндивидуальных корреляций}{17}{section.4.3}
 \contentsline {section}{\numberline {4.4}Исследование показателей точности классификации, выявление наименее и наиболее разделимых когнитивных состояний и соответствующих зон головного мозга}{17}{section.4.4}
-\contentsline {chapter}{Заключение}{19}{chapter*.7}
-\contentsline {chapter}{Список литературы}{20}{section*.8}
-\contentsline {section}{Список литературы}{20}{chapter*.9}
-\contentsline {chapter}{Приложения}{21}{section*.10}
+\contentsline {chapter}{Заключение}{19}{chapter*.6}
+\contentsline {chapter}{Список литературы}{20}{section*.7}
+\contentsline {section}{Список литературы}{20}{chapter*.8}
+\contentsline {chapter}{Приложения}{21}{section*.9}
 \contentsline {chapter}{\numberline {А}Исходные тексты программ}{21}{appendix.A}
