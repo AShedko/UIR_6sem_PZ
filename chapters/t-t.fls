@@ -1,0 +1,12 @@
+PWD /home/ashedko/Projects/Tex/UIR_pz/uir_6sem/chapters
+INPUT /usr/local/texlive/2016/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-var/web2c/pdftex/latex.fmt
+INPUT ../t-t.tex
+OUTPUT t-t.log
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/report.cls
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/report.cls
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
